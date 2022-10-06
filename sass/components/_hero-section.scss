@@ -1,0 +1,33 @@
+.hero-section {
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: $first-bgc;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/bgc-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-section__title {
+  max-width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $footer-btn-color;
+}
+
+.hero-section__btn {
+  margin: 0 auto;
+  padding: 10px 32px;
+  min-width: 216px;
+}

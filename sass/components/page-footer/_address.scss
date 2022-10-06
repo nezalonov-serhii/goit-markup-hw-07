@@ -1,0 +1,22 @@
+.address-wrap {
+  margin-right: 70px;
+  width: 231px;
+}
+
+
+.address {
+  font-style: normal;
+}
+
+.address__list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  line-height: 1.71;
+  color: $footer-btn-color;
+}
+
+.address__link--color{
+  color: $address-footer-contact;
+}
