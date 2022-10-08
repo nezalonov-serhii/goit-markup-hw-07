@@ -11,14 +11,13 @@
   }
 }
 
-.address-wrap {
+.address {
   margin-right: 70px;
   width: 231px;
-}
 
-.address {
-  font-style: normal;
-
+  &__wrap {
+    font-style: normal;
+  }
   &__list:not(:last-child) {
     margin-bottom: 9px;
   }
@@ -39,29 +38,29 @@
 
 .footer-form {
   display: flex;
-}
 
-.footer-form__input {
-  width: 358px;
-  height: 50px;
-  padding: 15px 16px;
-  margin-right: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+  &__input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
 
-  background-color: inherit;
-  color: var(--footer-color);
+    background-color: inherit;
+    color: var(--footer-color);
 
-  &:-webkit-autofill {
-    -webkit-text-fill-color: var(--footer-color);
-    -webkit-box-shadow: 0 0 0 30px var(--first-bgc) inset;
-    caret-color: var(--footer-color);
-  }
+    &:-webkit-autofill {
+      -webkit-text-fill-color: var(--footer-color);
+      box-shadow: 0 0 0 30px var(--first-bgc) inset;
+      caret-color: var(--footer-color);
+    }
 
-  &::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    color: var(--address-footer-contact);
+    &::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
+      color: var(--address-footer-contact);
+    }
   }
 }

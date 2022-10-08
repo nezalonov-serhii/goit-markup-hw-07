@@ -1,3 +1,11 @@
+body {
+  font-family: var(--prime-font);
+  color: var(--prime-color);
+  background-color: var(--prime-bgc);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -37,9 +45,7 @@
 }
 
 ///////title
-.work__title,
-.team__title,
-.clients__title {
+.title {
   margin-bottom: 50px;
 
   font-weight: 700;

@@ -11,8 +11,8 @@
   transition: opacity 250ms var(--cubic-bezer), visibility 250ms var(--cubic-bezer);
 
   &.is-hidden {
-  opacity: 0;
-}
+    opacity: 0;
+  }
 }
 
 .backdrop.is-hidden .modall {
@@ -94,7 +94,7 @@
 
 .modall__input:-webkit-autofill {
   -webkit-text-fill-color: var(--prime-color);
-  -webkit-box-shadow: 0 0 0 30px var(--prime-bgc) inset;
+  box-shadow: 0 0 0 30px var(--prime-bgc) inset;
   caret-color: var(--prime-color);
 }
 
