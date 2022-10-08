@@ -357,17 +357,17 @@
                         </li>
                         <li class="address__list">
                             <a href="mailto:info@devstudio.com" target="_blank" rel="noopener noreferrer nofollow"
-                                class="address__link active link address__link--color">info@devstudio.com</a>
+                                class="address__link address__link--color active link">info@devstudio.com</a>
                         </li>
                         <li class="address__list">
-                            <a href="tel:+380961111111" class="address__link active link address__link--color">+38 096
+                            <a href="tel:+380961111111" class="address__link address__link--color active link">+38 096
                                 111 11 11</a>
                         </li>
                     </ul>
                 </address>
             </div>
-            <div class="social__footer">
-                <strong class="social__title">приєднуйтесь</strong>
+            <div class="social-footer">
+                <strong class="social-footer__title">приєднуйтесь</strong>
                 <ul class="social lists">
                     <li class="social__item">
                         <a href="./" class="social__link social__link--color">
@@ -401,12 +401,12 @@
             </div>
 
             <div>
-                <strong class="social__title">Підпишіться на розсилку</strong>
-                <form class="footer__form">
-                    <input type="email" name="maill" class="footer__input" placeholder="E-mail" required>
-                    <button type="submit" class="footer__btn btn active-btn">
+                <strong class="social-footer__title">Підпишіться на розсилку</strong>
+                <form class="footer-form">
+                    <input type="email" name="maill" class="footer-form__input" placeholder="E-mail" required>
+                    <button type="submit" class="btn btn--footer-form active-btn">
                         Підписатися
-                        <svg width="24" height="24" class="footer__icon-send">
+                        <svg width="24" height="24" class="footer-form__icon-send">
                             <use href="./img/icons.svg#icon-send"></use>
                         </svg>
                     </button>
@@ -415,8 +415,9 @@
         </div>
     </footer>
 
+    
     <!-- backdrop  -->
-    <div class="hero-backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modall">
             <button data-modal-close class="btn-close">
                 <svg width="11" height="11" class="btn-close__icon">
@@ -424,50 +425,50 @@
                 </svg>
             </button>
             <strong class="modall__title">Залиште свої дані, ми вам передзвонимо</strong>
-            <form class="form">
-                <label for="username" class="form__field">
-                    <span class="form__label">Ім'я</span>
-                    <div class="form__wrap-input">
-                        <input type="text" id="username" name="username" class="form__input" required>
-                        <svg width="18" height="18" class="form__icon">
+            <form class="modall__form">
+                <label for="username" class="modall__field">
+                    <span class="modall__label">Ім'я</span>
+                    <div class="modall__wrap-input">
+                        <input type="text" id="username" name="username" class="modall__input" required>
+                        <svg width="18" height="18" class="modall__icon">
                             <use href="./img/icons.svg#icon-person"></use>
                         </svg>
                     </div>
                 </label>
-                <label for="tell" class="form__field">
-                    <span class="form__label">Телефон</span>
-                    <div class="form__wrap-input">
-                        <input type="tel" id="tell" name="tell" class="form__input" required>
-                        <svg width="18" height="18" class="form__icon">
+                <label for="tell" class="modall__field">
+                    <span class="modall__label">Телефон</span>
+                    <div class="modall__wrap-input">
+                        <input type="tel" id="tell" name="tell" class="modall__input" required>
+                        <svg width="18" height="18" class="modall__icon">
                             <use href="./img/icons.svg#icon-phone"></use>
                         </svg>
                     </div>
                 </label>
-                <label for="email" class="form__field">
-                    <span class="form__label">Пошта</span>
-                    <div class="form__wrap-input">
-                        <input type="email" id="email" name="email" class="form__input" required>
-                        <svg width="18" height="18" class="form__icon">
+                <label for="email" class="modall__field">
+                    <span class="modall__label">Пошта</span>
+                    <div class="modall__wrap-input">
+                        <input type="email" id="email" name="email" class="modall__input" required>
+                        <svg width="18" height="18" class="modall__icon">
                             <use href="./img/icons.svg#icon-email"></use>
                         </svg>
                     </div>
                 </label>
-                <label for="comment" class="form__field-textarea">
-                    <span class="form__label">Коментар</span>
-                    <textarea id="comment" name="comment" class="form__textarea"
+                <label for="comment" class="modall__field-textarea">
+                    <span class="modall__label">Коментар</span>
+                    <textarea id="comment" name="comment" class="modall__textarea"
                         placeholder="Введіть текст"></textarea>
                 </label>
-                <label for="check" class="form__checkbox-label">
-                    <input type="checkbox" name="agree" id="check" class="form__ckeckbox visually-hidden" required>
-                    <svg width="16" height="15" class="form__agree">
+                <label for="check" class="modall__checkbox-label">
+                    <input type="checkbox" name="agree" id="check" class="modall__ckeckbox visually-hidden" required>
+                    <svg width="16" height="15" class="modall__agree">
                         <use href="./img/icons.svg#icon-check"></use>
                     </svg>
-                    <p class="form__license">
+                    <p class="modall__license">
                         Погоджуюся з розсилкою та приймаю
-                        <a href="./" class="form__license-link">Умови договору</a>
+                        <a href="./" class="modall__license-link">Умови договору</a>
                     </p>
                 </label>
-                <button type="submit" class="form__btn btn active-btn">Відправити</button>
+                <button type="submit" class="btn btn--modall active-btn">Відправити</button>
             </form>
         </div>
     </div>

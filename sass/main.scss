@@ -1,22 +1,24 @@
-@import "./utils/vars";
-@import "./utils/reset-utility";
-@import "./components/page-header/header";
-@import "./components/common/logo";
-@import "./components/page-header/navigation";
-@import "./components/page-header/contact";
-@import "./components/hero-section";
-@import "./components/common/button";
-@import "./components/advantage";
-@import "./components/about-work";
-@import "./components/common/title";
-@import "./components/about-team/about-team";
-@import "./components/about-team/card";
-@import "./components/common/social";
-@import "./components/clients";
-@import "./components/page-footer/footer";
-@import "./components/page-footer/address";
-@import "./components/page-footer/form";
-@import "./components/portfolio/filter";
-@import "./components/portfolio/project";
-@import "./components/modall/modall";
-@import "./components/modall/form";
+// Utils
+@import "./utils/variables";
+@import "./utils/utils";
+
+// base
+@import "./base/common";
+@import "./base/logo";
+@import "./base/buttons";
+@import "./base/social";
+
+// layouts
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/advantage";
+@import "./layouts/about-work";
+@import "./layouts/about-team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/portfolio";
+
+// Components
+@import "./components/modall";
+
+
